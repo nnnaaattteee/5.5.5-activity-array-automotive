@@ -10,6 +10,11 @@ class Vehicle {
         this.started = false;
         this.numberOfWheels = 0;
     }
+    drive() {
+        console.log("drive")
+
+    }
+
 
     start() {
         if (this.fuel > 0) {
@@ -89,3 +94,6 @@ class Vehicle {
 module.exports = {
     Vehicle
 }
+
+
+
